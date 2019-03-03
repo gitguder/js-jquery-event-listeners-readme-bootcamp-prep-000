@@ -8,8 +8,9 @@ function getIt() {
 
 function frameIt() {
 $('img').on("load", function(){
-    return 'tasty'
+    return "https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg"
   });
+  return 'tasty'
 }
 
 $(document).ready(function(){
