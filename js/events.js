@@ -7,10 +7,10 @@ function getIt() {
 }
 
 function frameIt() {
-$('img').on("load", function(){
-    return "https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg"
+$('"https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg"').on("load", function(){
+    return 'tasty'
   });
-  return 'tasty'
+  return;
 }
 
 $(document).ready(function(){
