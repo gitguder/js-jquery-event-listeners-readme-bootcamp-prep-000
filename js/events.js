@@ -7,8 +7,11 @@ function getIt() {
 }
 
 function frameIt() {
-
+$('img').on("load", function(){
+    return 'tasty'  
+  });
 }
+
 $(document).ready(function(){
 
 // call functions here
