@@ -7,7 +7,7 @@ function getIt() {
 }
 
 function frameIt() {
-$('"https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg"').on("load", function(){
+$('img').on("load", function(){
     return 'tasty'
   });
   return;
